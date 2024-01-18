@@ -1,0 +1,36 @@
+.container-shop-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-card {
+    width: 30vw;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.shop-card-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.shop-card h3,
+.shop-card p {
+    margin: 0;
+}
+
+.shop-card-img {
+    height: 400px;
+}
+
+.price_shop-card {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
